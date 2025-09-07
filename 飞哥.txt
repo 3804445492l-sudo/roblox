@@ -1400,119 +1400,77 @@ tool:Button("飞",function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/3804445492l-sudo/roblox/refs/heads/main/飞行V3.txt"))()
 end)
 
-tool:Button("按键（任意选择按键",function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/KeyBinds/main/KeyBinds-Source.lua"))()
-end)
-
-local creds = window:Tab("DOORS",'6035145364')
-
-local tool = creds:section("功能",true)
-
-tool:Button("穿墙",function()
-        loadstring(game:HttpGet("https://github.com/DXuwu/OK/raw/main/clip"))()
-end)
-
-tool:Button("控制",function(Value)
-		if Value then
-		    game.Lighting.Ambient = Color3.new(1, 1, 1)
-		else
-		    game.Lighting.Ambient = Color3.new(0, 0, 0)
-		end
-end)
-
-tool:Button("手电筒",function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Normal%20Flashlight"))()
-end)
-
-tool:Button("神圣炸弹",function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/HolyGrenadeByNerd.lua"))()
-end)
-
-tool:Button("十字架封印一切按q使用",function()
-        _G.Uses = 10000
-_G.Range = 999
-_G.OnAnything = true
-_G.Fail = false
-loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
-end)
-
-tool:Button("A-3000",function()
-        	      		      		
-_G.OnShop = true
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
-end)
-
-tool:Button("A-3000备用",function()
-        _G.UpdateStars = false -- stars disappear after picking up a book/breaker pole | false: a little lag
-
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
-end)
-
-tool:Button("微山2.3.2",function()
-        --微山doors 2.3.2(愚人节快乐)
-loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\117\72\72\112\56\102\122\83"))()
-end)
-
-tool:Button("飞行",function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/gqv7PXAa"))()
-end)
-
 tool:Button("键盘",function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
 
-tool:Button("吸铁石",function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/MagnetByNerd.lua"))()
+
+
+
+
+
+
+
+
+
+local creds = window:Tab("DOORS",'6035145364')
+
+local tool = creds:section("脚本",true)
+
+tool:Button("脚本",function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TheHunterSolo1/Scripts/refs/heads/main/Protected_2809220311826785.lua.txt"))()
 end)
 
-tool:Button("剪刀",function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/shears_done.lua"))()
+local tool = creds:section("out door",true)
+
+tool:Button("脚本",function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/FLOOR-2-DOORS-Sensation-V2-20105"))()
 end)
 
-tool:Button("激光枪",function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Laser%20Gun"))()
+tool:Button("脚本",function()
+        loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\84\72\68\90\69\80\47\100\117\99\107\119\101\101\100\45\99\101\110\116\101\114\86\50\47\109\97\105\110\47\37\69\53\37\56\57\37\56\68\37\69\56\37\65\56\37\56\48\34\41\40\41\10")()
 end)
 
-tool:Button("紫色手电筒买东西时使用",function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Purple%20Flashlight"))()
-end)
+
+
+
+
+
+
+
+
+
 
 local creds = window:Tab("脚本",'666')
 
 local tool = creds:section("脚本",true)
 
-tool:Button("最像白脚本的脚本",function()
-        loadstring(game:HttpGet('https://getexploits.com/key-system/',true))('https://da.com/936657404291084298/1006220505583460352/Script.txt')
-end)
-
-tool:Button("ato",function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/atoyayaya/jiaoben/main/jiamilist"))()
-end)
-
 tool:Button("龙",function()
         loadstring(game:HttpGet "https://pastebin.com/raw/bXApbsu8")()
 end)
 
-tool:Button("云脚本",function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/UWU/main/Xiaos______________________________________________________________Yun__________________________________________________________________________betaV2.3------------------------------------------------------------------------------------jsjalololololololololololololololololololllololol.lua"))()
+tool:Button("天空脚本",function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/hdjsjjdgrhj/script-hub/refs/heads/main/skyhub"))()
 end)
 
-tool:Button("USA（卡密：USA AER）",function()
-        getgenv().USA="作者莫羽免费请勿倒卖"loadstring(game:HttpGet("https://raw.githubusercontent.com/boyscp/beta/main/USA.lua"))()
+tool:Button("rb",function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Yungengxin/roblox/refs/heads/main/Rb-Hub"))()
 end)
 
-tool:Button("龙",function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/nahida-cn/Roblox/main/long"))()
+tool:Button("扶贫中心",function()
+        loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\84\72\68\90\69\80\47\100\117\99\107\119\101\101\100\45\99\101\110\116\101\114\86\50\47\109\97\105\110\47\37\69\53\37\56\57\37\56\68\37\69\56\37\65\56\37\56\48\34\41\40\41\10")()
 end)
+
+
+
 
 local creds = window:Tab("大杂烩",'666')
 
 local tool = creds:section("大杂烩",true)
 
-
-
-
+tool:Button("   ",function()
+        
+end)
 
 
 
