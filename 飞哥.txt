@@ -1375,13 +1375,17 @@ local credits = creds:section("UI设置",true)
             game:GetService("CoreGui")["frosty"].Main.Style = "Custom"
         end
     end)
-    
+
 local creds = window:Tab("通用",'666')
 
 local tool = creds:section("通用",true)
 
 tool:Button("工具",function()
         loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
+end)
+
+tool:Button("dex",function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/3804445492l-sudo/roblox/refs/heads/main/Dex.lua"))()       
 end)
 
 tool:Button("人物无敌",function()
