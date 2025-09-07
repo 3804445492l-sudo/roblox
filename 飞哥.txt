@@ -1445,10 +1445,6 @@ local creds = window:Tab("脚本",'666')
 
 local tool = creds:section("脚本",true)
 
-tool:Button("龙",function()
-        loadstring(game:HttpGet "https://pastebin.com/raw/bXApbsu8")()
-end)
-
 tool:Button("天空脚本",function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/hdjsjjdgrhj/script-hub/refs/heads/main/skyhub"))()
 end)
