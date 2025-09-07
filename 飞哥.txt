@@ -1421,6 +1421,14 @@ tool:Button("脚本",function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/TheHunterSolo1/Scripts/refs/heads/main/Protected_2809220311826785.lua.txt"))()
 end)
 
+tool:Button("脚本",function()
+        --请复制下面脚本
+--请在游戏中执行，部分其他服务器执行无效
+--自己在脚本界面解卡
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/002c19202c9946e6047b0c6e0ad51f84.lua"))()
+end)
+
 local tool = creds:section("out door",true)
 
 tool:Button("脚本",function()
