@@ -1380,28 +1380,24 @@ local creds = window:Tab("通用",'666')
 
 local tool = creds:section("通用",true)
 
-tool:Button("工具",function()
-        loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
-end)
-
 tool:Button("dex",function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/3804445492l-sudo/roblox/refs/heads/main/Dex.lua"))()       
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/3804445492l-sudo/roblox/refs/heads/main/Dex.lua"))()       
 end)
 
-tool:Button("人物无敌",function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/H3RLCWWZ'))()
+tool:Button("互动战神",function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/3804445492l-sudo/roblox/refs/heads/main/通用秒互动.txt"))()
 end)
 
-tool:Button("最强透视",function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY"))()
+tool:Button("穿墙",function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TtmScripter/OtherScript/main/Noclip"))()
 end)
     
-tool:Button("位置获取",function()
-        loadstring(game:HttpGet("https://gist.githubusercontent.com/NortherScripts/8d954211b286d051c416cc5f88b3dc5f/raw/"))()
+tool:Button("自瞄",function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20Aimbot.lua"))()
 end)
 
-tool:Button("控制",function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/XR4sGcgJ"))()
+tool:Button("飞",function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/3804445492l-sudo/roblox/refs/heads/main/飞行V3.txt"))()
 end)
 
 tool:Button("按键（任意选择按键",function()
@@ -1514,9 +1510,7 @@ local creds = window:Tab("大杂烩",'666')
 
 local tool = creds:section("大杂烩",true)
 
-tool:Button("   ",function()
-        
-end)
+
 
 
 
