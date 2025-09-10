@@ -69,7 +69,7 @@ Start.TextWrapped = true
 Start.MouseButton1Click:Connect(function()
     if Key.Text == "7355608666" then
         ScreenGui:Destroy()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/3804445492l-sudo/roblox/refs/heads/main/飞哥.txt"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/3804445492l-sudo/roblox/refs/heads/main/飞哥.txt?token=GHSAT0AAAAAADKUUWVYR2H2JKUQPGBXRJ4M2GBA2OQ"))()
     else
         game.Players.LocalPlayer:Kick("邮箱3804445492@qq.com")
     end
