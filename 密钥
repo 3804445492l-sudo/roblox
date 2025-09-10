@@ -67,7 +67,7 @@ Start.TextSize = 10
 Start.TextWrapped = true
 
 Start.MouseButton1Click:Connect(function()
-    if Key.Text == "13584" then
+    if Key.Text == "7355608666" then
         ScreenGui:Destroy()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/3804445492l-sudo/roblox/refs/heads/main/飞哥.txt"))()
     else
